@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    color: #fff;
+    background: #000;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-main{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links{
+    background: #fff;
+    width: 750px;
+    height: 50px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-link{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    transition: 500ms;
+}
+
+.header-link:hover{
+    color: #beab00;
+}
+
+.header-logo{
+    box-shadow: 0px 0px 60px #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: crosshair;
+}
+
+.welcome{
+    margin: 250px;
+}
+
+.welcome-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.welcome-wyler{
+    width: 540px;
+}
+
+.welcome-h1{
+    font-size: 40px;
+}
+
+.welcome-p{
+    width: 300px;
+}
+
+
+.splitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.split{
+    width: 1300px;
+    border-radius: 15px;
+}
+
+.about-server{
+    margin: 125px;
+}
+
+.about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.split-vertical{
+    height: 550px;
+    margin: 0;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+.about-main-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 300px;
+    height: 50px;
+}
+
+.about-card{
+    background: #FFB20C;
+    width: 300px;
+    height: 250px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    transition: .3s;
+}
+
+.about-card:hover{
+    background-color: #ffbb28;
+    height: 255px;
+}
+
+.about-card1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.about-card2{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.about-card3{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+}
+
+.about-p{
+    width: 150px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.info{
+    margin: 100px;
+}
+
+.info-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-main-h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.info-main-p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.info-split{
+    width: 700px;
+    border: 0.5px solid #fff;
+}
+
+.info-forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-form-p{
+    font-size: 15px;
+}
+
+.info-form{
+    border-radius: 10px;
+    border: none;
+    background: #ffffff;
+    width: 300px;
+    height: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    transition: .4s;
+}
+
+.info-form:hover{
+    background: #dfc800;
+}
+
+.info-form:hover::placeholder{
+    color: #fff;
+}
+
+
+.info-form::placeholder{
+    color: #000000;
+}
+
+.info-btn{
+    width: 320px;
+    height: 35px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+    background: #fff;
+    font-weight: 600;
+}
+
+.info-btn:hover{
+    background: #dfc800;
+    color: #fff;
+    border: 1px solid #000000;
+}
+
+.footer{
+    margin-top: 85px;
+    width: 100%;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 20px 20px;
+
+}
+
+.footer-split{
+    width: 1400px;
+    border-radius: 15px;
+}
+
+.footer-h1{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
